@@ -1,0 +1,25 @@
+.input-box{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-bottom: 2px solid lightgray;
+}
+
+.empty-or-loaded, .opened-or-closed{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-btn{
+    width: fit-content;
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+}
+
+.trucks-info{
+    padding: 10px 5px;
+}
+

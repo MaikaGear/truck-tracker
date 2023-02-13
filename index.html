@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+<body>
+    <h1>Truck Tracker</h1>
+    <div id="input-box" class="input-box">
+        <div class="company">
+            <label for="truck-company">Company:</label>
+            <input type="text" name="truck-company" id="truck-company">
+        </div>
+        <div class="trailer-number">
+            <label for="trailer-number">Trailer number</label>
+            <input type="text" name="trailer-number" id="trailer-number">
+        </div>
+        <div class="options">
+            <div class="opened-or-closed">
+                <div>
+                    <input type="radio" name="opened-or-closed" id="opened" value="opened">
+                    <label for="opened">Opened</label>
+                </div>
+                <div>
+                    <input type="radio" name="opened-or-closed" id="closed" value="closed">
+                    <label for="closed">Closed</label>
+                </div>
+            </div>
+            <div class="empty-or-loaded">
+                <div>
+                    <input type="radio" name="empty-or-loaded" id="empty" value="Empty trailer">
+                    <label for="empty">Empty</label>
+                </div>
+                <div>
+                    <input type="radio" name="empty-or-loaded" id="loaded" value="Loaded trailer">
+                    <label for="loaded">Loaded</label>
+                </div>
+                <div>
+                    <input type="radio" name="empty-or-loaded" id="unknown" value="Unknown">
+                    <label for="unknown">Unknown</label>
+                </div>
+            </div>
+        </div>
+        <button id="add-btn" class="add-btn">Add truck</button>
+    </div>
+    <div id="trucks-box" class="trucks-box">
+        
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
